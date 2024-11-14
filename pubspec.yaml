@@ -1,0 +1,28 @@
+name: frombirth_ios
+description: "fromBirth"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"  # 적절한 SDK 버전 범위 설정
+
+dependencies:
+  flutter:
+    sdk: flutter # flutter SDK 의존성
+  provider: ^6.1.2  # 외부 패키지 의존성
+  cupertino_icons: ^1.0.8  # 아이콘 패키지
+  webview_flutter: ^3.0.4  # 최신 버전 확인 후 추가
+  file_picker: ^5.2.2
+  permission_handler: ^10.2.0
+  flutter_native_splash: ^2.2.10
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # 테스트 관련 의존성
+  flutter_lints: ^4.0.0  # Lint 설정 패키지
+
+flutter:
+  uses-material-design: true  # 머터리얼 디자인 사용
